@@ -18,7 +18,7 @@ source /etc/profile.d/rvm.sh
 # install ruby 2.1.1
 rvm install ruby-2.1.1
 
-# use ruby 2.0.0 and set it as the default
+# use ruby 2.1.1 and set it as the default
 rvm use ruby-2.1.1 --default
 
 # lets get personal
