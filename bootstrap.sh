@@ -10,16 +10,16 @@ apt-get upgrade
 apt-get install -y curl git tmux tree vim
 
 # install rvm
-# curl -sSL https://get.rvm.io | bash -s $1
+curl -sSL https://get.rvm.io | bash -s $1
 
 # activate rvm
-# source /etc/profile.d/rvm.sh
+source /etc/profile.d/rvm.sh
 
 # install ruby 2.0.0
-# rvm install ruby-2.1.1
+rvm install ruby-2.1.1
 
 # use ruby 2.0.0 and set it as the default
-# rvm use ruby-2.1.1 --default
+rvm use ruby-2.1.1 --default
 
 # lets get personal
 
