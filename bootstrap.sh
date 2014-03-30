@@ -15,7 +15,7 @@ curl -sSL https://get.rvm.io | bash -s $1
 # activate rvm
 source /etc/profile.d/rvm.sh
 
-# install ruby 2.0.0
+# install ruby 2.1.1
 rvm install ruby-2.1.1
 
 # use ruby 2.0.0 and set it as the default
