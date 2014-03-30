@@ -15,6 +15,9 @@ curl -sSL https://get.rvm.io | bash -s $1
 # activate rvm
 source /etc/profile.d/rvm.sh
 
+# add vagrant user to `rvm` group
+usermod -a -G rvm vagrant
+
 # install ruby 2.1.1
 rvm install ruby-2.1.1
 
