@@ -27,7 +27,6 @@ apt-get install -y curl git tmux tree vim
 echo "Get dotfiles"
 git clone https://github.com/rey/.dot.git /home/vagrant/.dot
 
-
 # install dotfiles
 echo "Install dotfiles"
 su -c "sh /home/vagrant/.dot/install.sh" - vagrant
