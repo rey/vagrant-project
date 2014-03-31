@@ -25,6 +25,9 @@ rvm install ruby-2.1.1
 rvm use ruby-2.1.1 --default
 
 # lets get personal
+# all of these commands are run with su as shell provisioning is run as root and
+# the permissions b0rk. This is a quick fix and there's probably a better way to
+# do it.
 
 # get dotfiles
 echo "Get dotfiles"
