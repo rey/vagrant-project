@@ -10,10 +10,10 @@ apt-get upgrade
 apt-get install -y curl git tmux tree vim
 
 # install rvm
-curl -sSL https://get.rvm.io | bash -s $1
+curl -sSL https://get.rvm.io | bash -s stable
 
 # activate rvm
-source /etc/profile.d/rvm.sh
+source /usr/local/rvm/scripts/rvm
 
 # add vagrant user to `rvm` group
 usermod -a -G rvm vagrant
