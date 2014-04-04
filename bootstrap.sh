@@ -7,7 +7,7 @@ apt-get update
 apt-get upgrade
 
 # install thing
-apt-get install -y curl git tmux tree vim
+apt-get install -y curl git lynx tmux tree vim
 
 # install rvm
 curl -sSL https://get.rvm.io | bash -s stable
